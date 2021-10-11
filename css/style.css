@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 header {
@@ -64,6 +65,7 @@ span i {
   padding: 0;
   font-size: 20px;
   font-weight: 400;
+  text-align: right;
   margin: auto;
   text-transform: uppercase;
   position: relative;
@@ -99,17 +101,14 @@ span i {
   transition: 0.4s ease-in-out;
 }
 .forsearch {
-  height: 40px;
-  width: 40px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: right;
+  margin-right: 20px;
 }
 .forsearch i {
   color: #fff;
+  
 }
 .carousel-item {
   height: 75vh;
@@ -484,7 +483,7 @@ span i {
   padding-top: 20px;
 }
 .foricon {
-  padding: 50px 0px 25px;
+  padding: 45px 0px 25px;
 }
 .foricon i {
   color: #c8342d;
@@ -500,7 +499,7 @@ span i {
   margin: auto;
 }
 .forshadowtow {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .forshadowtow:hover {
   transition: 0.2s ease-in-out;
