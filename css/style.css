@@ -19,12 +19,19 @@ header {
 }
 .forlogo h1 {
   color: #fff;
-  font-size: 55px;
+  font-size: 33px;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
   text-transform: uppercase;
-  margin-right: 140px;
 }
-.navbar-brand {
+.headericon {
+  width: 46%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headericon .navbar-brand {
   margin: 7px;
   padding: 0;
   height: 30px;
@@ -63,7 +70,7 @@ span i {
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
   padding: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   text-align: right;
   margin: auto;
@@ -100,6 +107,10 @@ span i {
   width: 45%;
   transition: 0.4s ease-in-out;
 }
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
 .forsearch {
   font-size: 20px;
   font-weight: 400;
@@ -108,10 +119,9 @@ span i {
 }
 .forsearch i {
   color: #fff;
-  
 }
 .carousel-item {
-  height: 75vh;
+  min-height: 81vh;
   text-align: center;
 }
 .carousel-item h1 {
@@ -123,9 +133,9 @@ span i {
 }
 .carousel-item p {
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
-  padding-bottom: 100px;
+  padding: 0px 0px 100px;
 }
 .carousel-item a {
   color: #fff;
@@ -138,16 +148,12 @@ span i {
   border-radius: 20px;
   background-color: #c8342d;
   padding: 15px 40px;
+  min-height: 50vh;
+  bottom: 0;
 }
 .carousel-item a:hover {
   background-color: transparent;
   transition: 0.3s all ease-in-out;
-}
-.carousel-control-next {
-  right: -5%;
-}
-.carousel-control-prev {
-  left: -5%;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
@@ -217,7 +223,7 @@ span i {
 }
 .forcontenttow p {
   color: #000;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   padding-bottom: 40px;
   padding-left: 45px;
@@ -292,7 +298,7 @@ span i {
 }
 .forcontentthree p {
   color: #000;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -329,9 +335,26 @@ span i {
   color: #fff;
   border: 2px solid #fff;
 }
+
 .justforpadding {
   padding-top: 32px;
 }
+.justforpadding img {
+  position: relative;
+}
+.justforpadding img::after {
+  position: absolute;
+  content: "";
+  top: 0%;
+  left: 0%;
+  height: 50%;
+  width: 50%;
+  background-color: rgb(196, 51, 51);
+}
+.justforpadding img:hover .justforpadding img::after {
+  height: 50%;
+}
+
 .sectiontow a {
   color: #fff;
   font-size: 20px;
@@ -377,11 +400,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #fff;
   transition: 0.4s ease-in-out;
 }
 .sectionthree:hover .lalala span::after {
   width: 45%;
+  background-color: #fff;
 }
 .lalala span::before {
   content: "";
@@ -390,15 +413,15 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #fff;
   transition: 0.4s ease-in-out;
 }
 .sectionthree:hover .lalala span::before {
   width: 45%;
+  background-color: #fff;
 }
 .sectionthree p {
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -412,19 +435,20 @@ span i {
   font-weight: 500;
   height: 100px;
   width: 100px;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
+  padding: 0;
 }
 .listitem h1:hover {
   border: 3px solid #c8342d;
 }
 .listitem p {
   color: #fff;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: uppercase;
   padding-top: 25px;
@@ -477,7 +501,7 @@ span i {
 }
 .sectionfour p {
   color: #000;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -528,10 +552,10 @@ span i {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
 }
 .abc {
-  height: 100vh;
+  min-height: 100vh;
 }
 .sectionfive h1 {
   color: #fff;
@@ -547,14 +571,14 @@ span i {
 }
 .forprofile h6 {
   color: #c8342d;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
   padding-top: 30px;
 }
 .forprofile h5 {
   color: #fff;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
   padding-bottom: 50px;
@@ -615,7 +639,7 @@ span i {
 }
 .sectionsix p {
   color: #000;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   padding: 30px 0px 50px 0px;
@@ -704,65 +728,80 @@ span i {
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .sectionseven {
-  background-color: #28252a;
-  padding: 80px 0px 80px 0px;
-}
-.footermidea {
-  padding-bottom: 40px;
-}
-.footermidea ul {
-  padding: 0;
-  margin: 0;
+  background-color: #303030;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
-.footermidea ul li {
-  list-style: none;
-  border: 2px solid #28252a;
-  padding: 6px 12px;
-}
-.footermidea ul li:hover {
-  border: 2px solid #c8342d;
-  transition: 0.4s all ease-in-out;
-}
-.footermidea ul li a {
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
+.sectionseven h1 {
+  font-size: 26px;
   color: #fff;
-  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-family: "Oswald", sans-serif;
 }
-.iconmidea {
-  padding-bottom: 40px;
+.sectionseven p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: 400;
+  padding-bottom: 26px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
 }
-.iconmidea ul {
-  padding: 0;
-  margin: 0;
+.social ul li:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #ff5900;
+}
+.social {
+  padding-bottom: 50px;
+}
+.social ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
-.iconmidea ul li {
+.social h1 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.social ul li {
   list-style: none;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
 }
-.iconmidea ul li:hover {
-  background-color: #fff;
-  transition: 0.4s all ease-in-out;
+.social ul li a {
+  color: #000;
+  font-size: 30px;
 }
-.iconmidea ul li a {
+.end-part {
+  display: flex;
+  justify-content: space-between;
+}
+.end-part ul {
+  padding: 0;
+  margin: 0;
+}
+.end-part ul li {
+  list-style: none;
+}
+.end-part ul li a {
   font-size: 18px;
+  color: #fff;
   font-weight: 400;
-  text-transform: uppercase;
-  color: #c8342d;
+  text-transform: capitalize;
   text-decoration: none;
-  border: none;
-  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
