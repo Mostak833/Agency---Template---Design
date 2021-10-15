@@ -9,7 +9,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: ;
 }
 .navbar {
   padding: 0;
@@ -19,14 +19,14 @@ header {
 }
 .forlogo h1 {
   color: #fff;
-  font-size: 33px;
+  font-size: 30px;
   font-weight: 600;
   padding: 0;
   margin: 0;
   text-transform: uppercase;
 }
 .headericon {
-  width: 46%;
+  width: 47%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ header {
   padding: 0;
   height: 30px;
   width: 30px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: #c8342d;
   background-color: #fff;
@@ -88,11 +88,11 @@ span i {
   bottom: -25%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
+  transition: 0.4s ease-in-out;
 }
 .navbar-light .navbar-nav .nav-link:hover::after {
   width: 45%;
-  transition: 0.4s ease-in-out;
+  background-color: #c8342d;
 }
 .navbar-light .navbar-nav .nav-link::before {
   content: "";
@@ -101,11 +101,11 @@ span i {
   bottom: -25%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
+  transition: 0.4s ease-in-out;
 }
 .navbar-light .navbar-nav .nav-link:hover::before {
   width: 45%;
-  transition: 0.4s ease-in-out;
+  background-color: #c8342d;
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -121,7 +121,7 @@ span i {
   color: #fff;
 }
 .carousel-item {
-  min-height: 81vh;
+  min-height: 100vh;
   text-align: center;
 }
 .carousel-item h1 {
@@ -214,7 +214,7 @@ span i {
 }
 .forcontenttow {
 }
-.forcontenttow h1 {
+.forcontenttow h2 {
   color: #000;
   font-size: 26px;
   font-weight: 500;
@@ -225,7 +225,7 @@ span i {
   color: #000;
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
   padding-left: 45px;
 }
 .forcontenttow .aaa {
@@ -277,11 +277,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectiontow:hover .forcontentthree span::after {
   width: 45%;
+  background-color: #c8342d;
 }
 .forcontentthree span::before {
   content: "";
@@ -290,11 +290,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectiontow:hover .forcontentthree span::before {
   width: 45%;
+  background-color: #c8342d;
 }
 .forcontentthree p {
   color: #000;
@@ -426,16 +426,13 @@ span i {
   text-align: center;
   padding-top: 20px;
 }
-.listitem {
-}
-
 .listitem h1 {
   color: #fff;
   font-size: 30px;
   font-weight: 500;
   height: 100px;
   width: 100px;
-  border: 2px solid #fff;
+  box-shadow: inset 3px -1px 4px 3px #dbd9d9;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -444,7 +441,7 @@ span i {
   padding: 0;
 }
 .listitem h1:hover {
-  border: 3px solid #c8342d;
+  box-shadow: 2px -1px 1px 3px #dbd9d9;
 }
 .listitem p {
   color: #fff;
@@ -480,11 +477,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectionfour:hover .lalala span::after {
   width: 45%;
+  background-color: #c8342d;
 }
 .lalala span::before {
   content: "";
@@ -493,11 +490,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectionfour:hover .lalala span::before {
   width: 45%;
+  background-color: #c8342d;
 }
 .sectionfour p {
   color: #000;
@@ -515,7 +512,7 @@ span i {
   font-weight: 500;
   height: 100px;
   width: 100px;
-  border: 3px dashed #c8342d;
+  border: 2px dashed #c8342d;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -596,7 +593,7 @@ span i {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-.sectionsix h1 {
+.sectionsix h2 {
   color: #000;
   font-size: 40px;
   font-weight: 500;
@@ -618,11 +615,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectionsix:hover .lalala span::after {
   width: 45%;
+  background-color: #c8342d;
 }
 .lalala span::before {
   content: "";
@@ -631,11 +628,11 @@ span i {
   bottom: 0%;
   width: 0;
   height: 3px;
-  background-color: #c8342d;
   transition: 0.4s ease-in-out;
 }
 .sectionsix:hover .lalala span::before {
   width: 45%;
+  background-color: #c8342d;
 }
 .sectionsix p {
   color: #000;
@@ -803,5 +800,9 @@ span i {
   text-transform: capitalize;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+}
+.end-part ul li a:hover {
+  text-decoration: underline;
+  color: #ff5900;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

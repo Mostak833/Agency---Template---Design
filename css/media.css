@@ -1,0 +1,230 @@
+@media screen and (max-width: 320px) {
+  .forlogo h1 {
+    font-size: 14px;
+  }
+  .headericon {
+    width: 57%;
+    justify-content: end;
+  }
+  .headericon .navbar-brand {
+    height: 23px;
+    width: 23px;
+    font-size: 12px;
+  }
+  .carousel-item {
+    min-height: 80vh;
+    text-align: center;
+  }
+  .carousel-item h1 {
+    font-size: 25px;
+    padding: 50px 0px 0px;
+  }
+  .carousel-item a {
+    font-size: 20px;
+    padding: 12px 30px;
+  }
+  .carousel-item p {
+    padding: 10px 0px 75px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+  }
+  .forimgone img {
+    width: 100%;
+    height: 100%;
+  }
+  .sectionone h1 {
+    font-size: 18px;
+    padding: 15px 0px 0px 20px;
+  }
+  .sectionone p {
+    font-size: 11px;
+    padding: 2px 0px 0px 20px;
+    margin: 5px 0;
+  }
+  .sectionone a {
+    font-size: 17px;
+  }
+  .forshadowone {
+    margin: -10px 0px;
+  }
+  .forcontenttow h2 {
+    font-size: 24px;
+    text-align: center;
+    padding: 48px 0px 15px 0px;
+  }
+  .forcontenttow .forpp {
+    font-size: 13px;
+    padding: 2px 0px 40px 20px;
+    margin: 5px 0;
+    text-align: justify;
+  }
+  .forcontenttow .aaa a {
+    font-size: 20px;
+    padding: 12px 30px;
+  }
+  .forcontentthree h1 {
+    font-size: 28px;
+  }
+  .forcontentthree p {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  .somemanu {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+  }
+  .somemanu ul li a {
+    padding: 0px 2px;
+    font-size: 13px;
+  }
+  .sectiontow a {
+    font-size: 20px;
+    padding: 12px 30px;
+  }
+  .sectionthree {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .sectionthree h1 {
+    font-size: 28px;
+  }
+  .sectionthree p {
+    font-size: 14px;
+  }
+  .forwidth {
+    width: 50%;
+  }
+  .sectionfour {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .sectionfour h1 {
+    font-size: 28px;
+  }
+  .sectionfour p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .forshadowtow {
+    margin-top: 38px;
+    width: 80%;
+    margin: auto;
+  }
+  .foricon {
+    padding: 35px 0px 25px;
+  }
+  .forshadowtow h1 {
+    font-size: 20px;
+  }
+  .forshadowtow p {
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  .forshadowtow p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  .forprofile img {
+    width: 130px;
+    height: 130px;
+    margin-top: 15px;
+  }
+  .forprofile h5 {
+    font-size: 24px;
+    padding-bottom: 8px;
+  }
+  .sectionfive p {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+  .sectionsix {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .sectionsix h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .sectionsix p {
+    font-size: 14px;
+    padding: 0px 0px 50px 0px;
+  }
+  .forimgtow img {
+    width: 0px;
+    height: 0px;
+  }
+  .forcontentfour h4 {
+    font-size: 11px;
+    padding: 12px 30px 0px 10px;
+  }
+  .sectionsix h1 {
+    font-size: 15px;
+    padding: 8px 10px 5px 10px;
+  }
+  .forcontentfour p {
+    font-size: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .forcontentfour a {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .AAA {
+    padding-bottom: 15px;
+  }
+  .forshadowthree h4 {
+    font-size: 11px;
+    padding: 12px 30px 0px 10px;
+  }
+  .forshadowthree h1 {
+    font-size: 15px;
+    padding: 8px 10px 5px 10px;
+  }
+  .forshadowthree p {
+    font-size: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .forshadowthree a {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .forshadowthree {
+    box-shadow: 0px 0px 0px 0px #f5f5f5;
+  }
+  .sectionseven {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .sectionseven h1 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .sectionseven p {
+    font-size: 11px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 100%;
+  }
+  .social ul li {
+    width: 140px;
+  }
+  .social {
+    padding-bottom: 30px;
+  }
+  .end-part ul li a {
+    font-size: 10px;
+  }
+}
