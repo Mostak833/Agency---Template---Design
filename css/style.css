@@ -9,7 +9,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: ;
+  min-height: 100vh;
 }
 .navbar {
   padding: 0;
@@ -19,14 +19,14 @@ header {
 }
 .forlogo h1 {
   color: #fff;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 600;
   padding: 0;
   margin: 0;
   text-transform: uppercase;
 }
 .headericon {
-  width: 47%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,42 +70,19 @@ span i {
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
   padding: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   text-align: right;
   margin: auto;
   text-transform: uppercase;
   position: relative;
-  margin-right: 20px;
+  padding: 4px 12px;
+  margin-right: 10px;
+  border: 2px solid transparent;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
-}
-.navbar-light .navbar-nav .nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -25%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.navbar-light .navbar-nav .nav-link:hover::after {
-  width: 45%;
-  background-color: #c8342d;
-}
-.navbar-light .navbar-nav .nav-link::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: -25%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.navbar-light .navbar-nav .nav-link:hover::before {
-  width: 45%;
-  background-color: #c8342d;
+  border: 2px solid rgb(216, 214, 214);
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -119,51 +96,54 @@ span i {
 }
 .forsearch i {
   color: #fff;
+  padding-top: 10px;
 }
 .carousel-item {
-  min-height: 100vh;
+  min-height: 85vh;
   text-align: center;
 }
 .carousel-item h1 {
   color: #fff;
-  font-size: 40px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 100px 0px 30px;
+  font-size: 55px;
+  padding: 134px 0px 10px;
+}
+.carousel-item h1 span {
+  color: #ff5900;
 }
 .carousel-item p {
-  color: #fff;
-  font-size: 16px;
+  color: #c4c7cb;
+  font-size: 14px;
+  line-height: 30px;
   font-weight: 400;
-  padding: 0px 0px 100px;
+  padding: 0px 0px 30px;
 }
 .carousel-item a {
   color: #fff;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 20px;
-  background-color: #c8342d;
-  padding: 15px 40px;
-  min-height: 50vh;
-  bottom: 0;
+  background-color: transparent;
+  padding: 18px 50px;
 }
 .carousel-item a:hover {
-  background-color: transparent;
   transition: 0.3s all ease-in-out;
+  background-color: #c8342d;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   padding: 0px;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
   text-indent: -999px;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
@@ -179,6 +159,7 @@ span i {
   border-bottom-style: solid;
   border-bottom-color: transparent;
   transition: opacity 0.6s ease 0s;
+  margin-bottom: 30px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .sectionone {
@@ -187,20 +168,20 @@ span i {
 }
 .sectionone h1 {
   color: #000;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 30px 0px 15px 20px;
+  padding: 38px 0px 15px 20px;
 }
 .sectionone p {
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   padding: 0px 0px 10px 20px;
 }
 .sectionone a {
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -210,22 +191,23 @@ span i {
   text-decoration: underline;
 }
 .sectionone .forshadowone {
-  box-shadow: 0px 0px 20px 15px #dfdfe2;
-}
-.forcontenttow {
+  box-shadow: 0px 0px 20px 15px #dfdfe24f;
 }
 .forcontenttow h2 {
   color: #000;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 24px;
+  padding: 180px 0px 10px 45px;
+  font-weight: 700;
   text-transform: uppercase;
-  padding: 120px 0px 40px 45px;
+}
+.forcontenttow h2 span {
+  font-weight: 400;
 }
 .forcontenttow p {
   color: #000;
-  font-size: 16px;
+  font-size: 14.5px;
+  padding-bottom: 70px;
   font-weight: 400;
-  padding-bottom: 100px;
   padding-left: 45px;
 }
 .forcontenttow .aaa {
@@ -233,7 +215,7 @@ span i {
 }
 .forcontenttow .aaa a {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
@@ -241,7 +223,7 @@ span i {
   border: 2px solid #fff;
   border-radius: 20px;
   background-color: #c8342d;
-  padding: 15px 40px;
+  padding: 18px 50px;
 }
 .forcontenttow .aaa a:hover {
   background-color: transparent;
@@ -255,22 +237,22 @@ span i {
   padding-top: 100px;
   padding-bottom: 90px;
 }
-.forcontentthree h1 {
+.commonthree h1 {
   color: #000;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 41px;
+  font-weight: 700;
   text-transform: capitalize;
   text-align: center;
   padding-bottom: 10px;
 }
-.forcontentthree span {
+.commonthree span {
   display: block;
   width: 10%;
   height: 3px;
   margin: auto;
   position: relative;
 }
-.forcontentthree span::after {
+.commonthree span::after {
   content: "";
   position: absolute;
   left: 0;
@@ -279,11 +261,11 @@ span i {
   height: 3px;
   transition: 0.4s ease-in-out;
 }
-.sectiontow:hover .forcontentthree span::after {
+.sectiontow:hover .commonthree span::after {
   width: 45%;
   background-color: #c8342d;
 }
-.forcontentthree span::before {
+.commonthree span::before {
   content: "";
   position: absolute;
   right: 0;
@@ -292,20 +274,20 @@ span i {
   height: 3px;
   transition: 0.4s ease-in-out;
 }
-.sectiontow:hover .forcontentthree span::before {
+.sectiontow:hover .commonthree span::before {
   width: 45%;
   background-color: #c8342d;
 }
-.forcontentthree p {
+.commonthree p {
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
 }
 .somemanu {
   text-align: center;
-  width: 60%;
+  width: 42%;
   margin: auto;
   padding: 60px 0px 70px 0px;
 }
@@ -322,13 +304,13 @@ span i {
 .somemanu ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
   border: 2px solid #c8342d;
   background-color: transparent;
-  border-radius: 10px;
-  padding: 8px 20px;
+  border-radius: 5px;
+  padding: 4px 8px;
 }
 .somemanu ul li a:hover {
   background-color: #c8342d;
@@ -337,34 +319,19 @@ span i {
 }
 
 .justforpadding {
-  padding-top: 32px;
+  padding-top: 26px;
 }
-.justforpadding img {
-  position: relative;
-}
-.justforpadding img::after {
-  position: absolute;
-  content: "";
-  top: 0%;
-  left: 0%;
-  height: 50%;
-  width: 50%;
-  background-color: rgb(196, 51, 51);
-}
-.justforpadding img:hover .justforpadding img::after {
-  height: 50%;
-}
-
 .sectiontow a {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 20px;
   background-color: #c8342d;
-  padding: 15px 40px;
+  padding: 18px 50px;
 }
 .sectiontow a:hover {
   background-color: transparent;
@@ -380,7 +347,7 @@ span i {
 }
 .sectionthree h1 {
   color: #fff;
-  font-size: 40px;
+  font-size: 41px;
   font-weight: 500;
   text-transform: capitalize;
   text-align: center;
@@ -421,7 +388,7 @@ span i {
 }
 .sectionthree p {
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -445,8 +412,8 @@ span i {
 }
 .listitem p {
   color: #fff;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
   padding-top: 25px;
 }
@@ -455,53 +422,13 @@ span i {
   padding-top: 100px;
   padding-bottom: 90px;
 }
-.sectionfour h1 {
-  color: #000;
-  font-size: 40px;
-  font-weight: 500;
-  text-transform: capitalize;
-  text-align: center;
-  padding-bottom: 10px;
-}
-.lalala span {
-  display: block;
-  width: 10%;
-  height: 3px;
-  margin: auto;
-  position: relative;
-}
-.lalala span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.sectionfour:hover .lalala span::after {
+.sectionfour:hover .commonthree span::after {
   width: 45%;
   background-color: #c8342d;
 }
-.lalala span::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.sectionfour:hover .lalala span::before {
+.sectionfour:hover .commonthree span::before {
   width: 45%;
   background-color: #c8342d;
-}
-.sectionfour p {
-  color: #000;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 20px;
 }
 .foricon {
   padding: 45px 0px 25px;
@@ -520,7 +447,10 @@ span i {
   margin: auto;
 }
 .forshadowtow {
-  margin-top: 40px;
+  width: 31%;
+  margin: auto;
+  background-color: #f5f5f5;
+  text-align: center;
 }
 .forshadowtow:hover {
   transition: 0.2s ease-in-out;
@@ -532,15 +462,15 @@ span i {
 }
 .forshadowtow h1 {
   color: #000;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 .forshadowtow p {
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  text-transform: uppercase;
   padding-bottom: 30px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -551,8 +481,8 @@ span i {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
-.abc {
-  min-height: 100vh;
+.carousel-tow {
+  min-height: 70vh;
 }
 .sectionfive h1 {
   color: #fff;
@@ -560,14 +490,14 @@ span i {
   font-weight: 500;
   text-transform: capitalize;
   text-align: center;
-  padding: 80px 0 70px;
+  padding: 80px 0 60px;
 }
 .forprofile img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
 }
 .forprofile h6 {
-  color: #c8342d;
+  color: #ff5900;
   font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
@@ -578,14 +508,28 @@ span i {
   font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
-  padding-bottom: 50px;
 }
 .sectionfive p {
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: capitalize;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
+}
+.forstar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forstar ul li {
+list-style: none;
+}
+.forstar ul li i {
+  text-decoration: none;
+  color: #ff5900;
+  padding-bottom: 50px;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .sectionsix {
@@ -593,50 +537,24 @@ span i {
   padding-top: 100px;
   padding-bottom: 80px;
 }
-.sectionsix h2 {
+.commonthree h2 {
   color: #000;
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 38px;
+  font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   padding-bottom: 10px;
 }
-.lalala span {
-  display: block;
-  width: 10%;
-  height: 3px;
-  margin: auto;
-  position: relative;
-}
-.lalala span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.sectionsix:hover .lalala span::after {
+.sectionsix:hover .commonthree span::after {
   width: 45%;
   background-color: #c8342d;
 }
-.lalala span::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0%;
-  width: 0;
-  height: 3px;
-  transition: 0.4s ease-in-out;
-}
-.sectionsix:hover .lalala span::before {
+.sectionsix:hover .commonthree span::before {
   width: 45%;
   background-color: #c8342d;
 }
-.sectionsix p {
+.commonthree p {
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-align: center;
   padding: 30px 0px 50px 0px;
@@ -646,25 +564,25 @@ span i {
 }
 .forcontentfour h4 {
   color: #c8342d;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: capitalize;
-  padding: 30px 30px 0px 30px;
+  padding: 48px 30px 0px 30px;
 }
 .forcontentfour h4 text {
   margin-left: 20px;
 }
 .forcontentfour h1 {
   color: #000;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   text-align: left;
   text-transform: uppercase;
   padding: 20px 30px 10px 30px;
 }
 .forcontentfour p {
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-align: left;
   padding: 0px 30px 10px 30px;
@@ -686,7 +604,7 @@ span i {
 }
 .forshadowthree h4 {
   color: #c8342d;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: capitalize;
   padding: 30px 30px 0px 20px;
@@ -696,15 +614,15 @@ span i {
 }
 .forshadowthree h1 {
   color: #000;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
   text-align: left;
   text-transform: uppercase;
   padding: 20px 30px 10px 20px;
 }
 .forshadowthree p {
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   text-align: left;
   padding: 0px 30px 10px 20px;
@@ -732,7 +650,7 @@ span i {
   padding-bottom: 20px;
 }
 .sectionseven h1 {
-  font-size: 26px;
+  font-size: 20px;
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
@@ -740,7 +658,7 @@ span i {
   font-family: "Oswald", sans-serif;
 }
 .sectionseven p {
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   line-height: 25px;
   font-weight: 400;
@@ -794,7 +712,7 @@ span i {
   list-style: none;
 }
 .end-part ul li a {
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   font-weight: 400;
   text-transform: capitalize;
