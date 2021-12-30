@@ -1,188 +1,98 @@
-@media screen and (max-width: 576px) {
-  .forlogo h1 {
-    font-size: 30px;
-    padding: 0px 0px 0px 40px;
-  }
-  .headericon {
-    width: 49%;
-  }
-  .navbar > .container,
-  .navbar > .container-fluid,
-  .navbar > .container-lg,
-  .navbar > .container-md,
-  .navbar > .container-sm,
-  .navbar > .container-xl,
-  .navbar > .container-xxl {
-    justify-content: unset;
-  }
-  .headericon .navbar-brand {
-  }
-  .navbar-light .navbar-nav .nav-link {
-  }
-  .carousel-item {
-    min-height: 90vh;
-  }
-  .carousel-indicators {
-    margin-bottom: -1rem;
-  }
-  .carousel-item h1 {
-    font-size: 50px;
-    padding: 60px 0px 10px;
-  }
-  .carousel-item a {
-    font-size: 16px;
-  }
-  .carousel-item p {
-    font-size: 18px;
-  }
-  .carousel-indicators [data-bs-target] {
-  }
-  .carousel-indicators {
-  }
-  .sectionone {
-    padding-top: 65px;
-  }
-  .forimgone img {
-  }
-  .sectionone h1 {
-  }
-  .sectionone p {
-  }
-  .sectionone a {
-  }
-  .forshadowone {
-  }
-  .forcontenttow h2 {
-    padding: 65px 0px 10px 38px;
-  }
-  .forcontenttow p {
-    padding-left: 38px;
-  }
-  .forcontenttow .forpp {
-  }
-  .forcontenttow .aaa {
-    padding-left: 38px;
-  }
-  .sectiontow {
-    padding-top: 65px;
-  }
-  .commonthree h1 {
-    font-size: 32px;
-  }
-  .commonthree p {
-    font-size: 18px;
-  }
-  .somemanu {
-    width: 80%;
-    padding: 0px 0px 40px 0px;
-  }
-  .somemanu ul li a {
-  }
-  .sectiontow a {
-  }
-  .sectionthree {
-    padding-top: 65px;
-    padding-bottom: 55px;
-  }
-  .sectionthree h1 {
-  }
-  .sectionthree p {
-  }
-  .forwidth {
-    width: 33%;
-    margin: auto;
-  }
-  .sectionfour {
-    padding-top: 65px;
-    padding-bottom: 55px;
-  }
-  .sectionfour h1 {
-  }
-  .sectionfour p {
-  }
-  .forshadowtow {
-  }
-  .foricon {
-  }
-  .foricon i {
-    font-size: 40px;
-    height: 80px;
-    width: 80px;
-  }
-  .forshadowtow h1 {
-    font-size: 12px;
-  }
-  .forshadowtow p {
-    font-size: 12px;
-  }
-  .forprofile img {
-  }
-  .forprofile h5 {
-  }
-  .foricon i {
-    color: #c8342d;
-    font-size: 40px;
-    font-weight: 500;
-    height: 80px;
-    width: 80px;
-    border: 2px dashed #c8342d;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .sectionfive h1 {
-    padding: 60px 0 60px;
-  }
-  .sectionfive p {
-    font-size: 15px;
-    padding-bottom: 50px;
-  }
+/* 
+  ##Device = Desktops
+  ##Screen = 1440px to higher resolution desktops
+*/
 
-  .sectionsix {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .sectionsix h2 {
-  }
-  .sectionsix p {
-  }
-  .forimgtow img {
-    display: none;
-  }
-  .forcontentfour h4 {
-  }
-  .sectionsix h1 {
-  }
-  .forcontentfour p {
-  }
-  .forcontentfour a {
-  }
-  .AAA {
-  }
-  .forshadowthree h4 {
-  }
-  .forshadowthree h1 {
-  }
-  .forshadowthree p {
-  }
-  .forshadowthree a {
-  }
-  .forshadowthree {
-  }
-  .sectionseven {
-  }
-  .sectionseven h1 {
-  }
-  .sectionseven p {
-  }
-  .social ul {
-  }
-  .social ul li {
-  }
-  .social {
-  }
-  .end-part ul li a {
-  }
+@media (min-width: 1440px) {
+  
+  /* CSS */
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 1200px to 1399.98px
+*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+  /* CSS */
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 1025px to 1199px
+*/
+
+@media (min-width: 1025px) and (max-width: 1199.98px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 992px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 991px
+*/
+
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Portrait)
+  ##Screen = B/w 576px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Portrait)
+  ##Screen = B/w 481px to 575px
+*/
+
+@media (min-width: 481px) and (max-width: 575.98px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 425px to 480px
+*/
+
+@media (min-width: 425px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 0px to 424px
+*/
+
+@media (min-width: 0px) and (max-width: 424px) {
+  
+  /* CSS */
+  
 }
