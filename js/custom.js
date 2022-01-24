@@ -16,7 +16,7 @@ AOS.init({
 //  >>>>>>>>>>>>>>>> for light-box <<<<<<<<<<<<<<<<//
 lightbox.option({
     'resizeDuration': 200,
-    'wrapAround': true
+    'wrapAround': true,
   })
 //  >>>>>>>>>>>>>>>> for slick-slider <<<<<<<<<<<<<<<<//
 $('.center').slick({
