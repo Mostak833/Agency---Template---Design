@@ -3,7 +3,7 @@
   padding: 0;
 }
 header {
-  background-image: linear-gradient(rgba(155, 84, 84, 0.2), rgba(0, 0, 0, 0.2)), url(../images/home.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/computer-2846160_1920.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,11 +26,15 @@ header {
   margin: 0px 0px 0px 0px;
   text-decoration: none;
 }
+.navbar-light .navbar-toggler span i {
+  color: #fff;
+  font-size: 30px;
+}
 .social {
   width: 100%;
 }
 .social ul {
-  width: 35%;
+  width: 30%;
   padding: 0px 0px 0px 0px;
   margin: auto;
   display: flex;
@@ -46,7 +50,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 .social ul li:hover {
   background-color: transparent;
@@ -183,8 +187,14 @@ header {
 }
 .forhover {
   padding: 0px 0px 0px 0px;
-  margin: 25px 0px 25px 0px;
-  box-shadow: 0px 0px 15px 0px rgb(236, 236, 236);
+  margin: 15px 0px 15px 0px;
+  box-shadow: 0px 0px 20px 0px rgb(236, 236, 236);
+  transition: 0.4s all ease-in-out;
+}
+.forhover:hover {
+  -webkit-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  transform: translateX(-5px);
 }
 .imagecont {
   padding: 35px 25px 25px 35px;
@@ -278,7 +288,7 @@ header {
 }
 .upcontfour span {
   display: block;
-  width: 10%;
+  width: 15%;
   height: 3px;
   margin: auto;
   position: relative;
@@ -317,16 +327,15 @@ header {
   margin: 0px 0px 0px 0px;
 }
 .manulist {
-  width: 100%;
+  width: 40%;
+  margin: auto;
   padding: 0px 0px 50px 0px;
 }
 .manulist ul {
-  width: 50%;
+  padding: 0px 0px 0px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 0px 0px 0px;
-  margin: auto;
 }
 .manulist ul li {
   list-style: none;
@@ -397,7 +406,8 @@ header {
   padding: 80px 0px 80px 0px;
   background-color: #120129;
 }
-.upcontfour h2 {
+.upcontfour h2,
+.forcolor h1 {
   font-size: 40px;
   font-weight: 600;
   color: #fff;
@@ -420,12 +430,14 @@ header {
   padding: 10px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
-.numbersix {
+.numbersixr,
+.numbersixl {
   text-align: center;
   padding: 60px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
-.numbersix h1 {
+.numbersixr h1,
+.numbersixl h1 {
   height: 80px;
   width: 80px;
   border: 2px solid #fff;
@@ -440,10 +452,14 @@ header {
   box-shadow: inset 3px -3px 5px 0px #f5f5f5;
   transition: 0.4s all ease-in-out;
 }
-.numbersix h1:hover {
+.numbersixr h1:hover {
   box-shadow: inset -3px 3px 5px 0px #f5f5f5;
 }
-.numbersix p {
+.numbersixl h1:hover {
+  box-shadow: inset -3px 3px 5px 0px #f5f5f5;
+}
+.numbersixr p,
+.numbersixl p {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -482,14 +498,15 @@ header {
 .forboxsix {
   text-align: center;
   background-color: #e7e5e5;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: 50px 0px 0px 0px;
   box-shadow: -3px -3px 4px 1px #0c2844;
   transition-duration: 0.5s;
 }
 .forboxsix:hover {
-  width: 100%;
-  transform: scale(1.02);
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .forboxsix:hover .foriconsix i {
   border: 2px solid #ff6e1a;
@@ -513,7 +530,7 @@ header {
 /* end ////////////////////////////////////////////////////////*/
 .aboutus {
   padding: 80px 0px 40px 0px;
-  background-color: #fff;
+  background-color: #120129;
 }
 .aboutus:hover .upcontfour span::after {
   width: 45%;
@@ -524,17 +541,25 @@ header {
   background-color: #ff6e1a;
 }
 .aboutus p {
-  padding: 30px 0px 20px 0px;
+  color: #fff;
+  font-weight: 500;
+  padding: 50px 25px 15px 25px;
 }
 .backc {
-  width: 300px;
-}
-.slick .slick-center .backc {
-  transform: scale(1.2);
+  text-align: center;
+  margin: 100px 25px 70px 25px;
+  padding: 35px 0px 30px 0px;
+  background-image: url(../images/pngegg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 5px solid #fa5827;
+  transition: 0.4s all ease-in-out;
 }
 .for-rating ul {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
@@ -543,26 +568,31 @@ header {
   list-style: none;
 }
 .for-rating ul li i {
-  color: #000;
+  color: #fff;
   font-size: 15px;
 }
 .tow-items {
-  display: flex;
-  align-items: center;
+  text-align: center;
   padding: 0px 0px 0px 0px;
 }
 .tow-items h1 {
-  padding: 0px 0px 0px 0px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 0px 0px 0px;
 }
 .profile {
-  width: 15%;
+  width: 40%;
+  margin: auto;
 }
 .profile img {
   width: 100%;
   clip-path: circle();
 }
-.tow-items h1 {
-  font-size: 14px;
+.slick-current,
+.slick-center {
+  transform: scale(1.15);
+  background-color: #ff6e1a;
 }
 /* end ////////////////////////////////////////////////////////*/
 .blog {

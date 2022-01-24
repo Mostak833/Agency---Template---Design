@@ -25,23 +25,24 @@ $('.center').slick({
     slidesToShow: 3,
     autoplay: true,
     loop: true,
+    autoplayspeed:1500,
     responsive: [
       {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
+          centerPadding: '0px',
+          slidesToShow: 1,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 605,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
+          centerPadding: '0px',
+          slidesToShow: 1,
         }
       }
     ]

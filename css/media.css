@@ -4,95 +4,1634 @@
 */
 
 @media (min-width: 1440px) {
-  
   /* CSS */
-  
 }
 
-
 /* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 1200px to 1399.98px
-*/
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  
-  /* CSS */
-  
-}
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 1025px to 1199px
-*/
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 1025px to 1199px
+  */
 
 @media (min-width: 1025px) and (max-width: 1199.98px) {
-  
-  /* CSS */
-  
+  .padding {
+    padding: 50px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 26px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 50%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 30px;
+    height: 30px;
+  }
+  .social ul li a {
+    font-size: 15px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 2px 10px 3px 10px;
+  }
+  .bannercont h1 {
+    font-size: 40px;
+    padding: 90px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 15px 20px 5px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 105px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: start;
+    padding: 15px 0px 0px 25px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 36px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 50%;
+    padding: 20px 0px 35px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 14px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    height: 489px;
+    padding: 0px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 32px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 13px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 30px 0px 0px 0px;
+  }
+  .forboxsix p {
+    padding: 25px 10px 40px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .aboutus {
+    padding: 65px 0px 40px 0px;
+  }
+  .backc {
+    margin: 80px 15px 55px 15px;
+    padding: 20px 0px 25px 0px;
+  }
+  .aboutus p {
+    font-size: 13px;
+    padding: 10px 25px 0px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 95px 0px 75px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 15px;
+  }
 }
 
 /* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 992px to 1024px
-*/
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 992px to 1024px
+  */
 
-@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  
+@media (min-width: 992px) and (max-width: 1024.98px) and (orientation: landscape) {
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 26px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 50%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 30px;
+    height: 30px;
+  }
+  .social ul li a {
+    font-size: 15px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 2px 10px 3px 10px;
+  }
+  .bannercont h1 {
+    font-size: 40px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 15px 20px 5px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 105px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: start;
+    padding: 15px 0px 0px 25px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 36px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 50%;
+    padding: 20px 0px 35px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 14px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    height: 489px;
+    padding: 0px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 32px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 13px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 30px 0px 0px 0px;
+  }
+  .forboxsix p {
+    padding: 25px 10px 40px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .aboutus {
+    padding: 65px 0px 40px 0px;
+  }
+  .backc {
+    margin: 80px 15px 55px 15px;
+    padding: 20px 0px 25px 0px;
+  }
+  .aboutus p {
+    font-size: 13px;
+    padding: 10px 25px 0px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 95px 0px 75px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 15px;
+  }
 }
 
 /* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 991px
-*/
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 991.98px
+  */
 
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
-  
-  /* CSS */
-  
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 68%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 28px;
+    height: 28px;
+  }
+  .social ul li a {
+    font-size: 14px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 38px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 15px 20px 5px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 105px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: start;
+    padding: 15px 0px 0px 25px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 38px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 65%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 14px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    height: 439px;
+    padding: 0px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 32px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 13px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 30px 0px 0px 0px;
+  }
+  .forboxsix p {
+    padding: 25px 10px 40px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .aboutus {
+    padding: 65px 0px 40px 0px;
+  }
+  .backc {
+    margin: 80px 15px 55px 15px;
+    padding: 20px 0px 30px 0px;
+  }
+  .aboutus p {
+    font-size: 13px;
+    padding: 10px 25px 0px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 95px 0px 75px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 15px;
+  }
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Portrait)
-  ##Screen = B/w 576px to 767px
-*/
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 576px to 767px
+  */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  
-  /* CSS */
-  
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 68%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 28px;
+    height: 28px;
+  }
+  .social ul li a {
+    font-size: 14px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 38px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 15px 20px 5px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 40px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 38px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 65%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 14px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    height: 327px;
+    padding: 0px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 32px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 50px 0px 0px 0px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 90px 65px 90px;
+    padding: 60px 0px 60px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 95px 0px 75px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 15px;
+  }
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Portrait)
-  ##Screen = B/w 481px to 575px
-*/
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 481px to 575.98px
+  */
 
 @media (min-width: 481px) and (max-width: 575.98px) {
-  
-  /* CSS */
-  
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 68%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 28px;
+    height: 28px;
+  }
+  .social ul li a {
+    font-size: 14px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 35px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 15px 20px 5px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 40px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 35px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 65%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 14px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    padding: 25px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 35px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 35px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 32px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 50px 60px 0px 60px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 90px 65px 90px;
+    padding: 60px 0px 60px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 95px 0px 75px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 22px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 15px;
+  }
 }
 
 /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 425px to 480px
-*/
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 425px to 480px
+  */
 
 @media (min-width: 425px) and (max-width: 480px) {
-  
-  /* CSS */
-  
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 72%;
+    padding: 4px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 26px;
+    height: 26px;
+  }
+  .social ul li a {
+    font-size: 13px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 32px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 60px 0px 55px 0px;
+  }
+  .imagecont {
+    padding: 30px 0px 15px 25px;
+  }
+  .imagecont h1 {
+    font-size: 18px;
+  }
+  .imagecont p {
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+  }
+  .readseven a {
+    font-size: 16px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 40px 0px 0px 25px;
+  }
+  .rightcont p {
+    font-size: 15px;
+    padding: 20px 0px 0px 25px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 12px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 60px 0px 60px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 30px;
+  }
+  .upcontfour p {
+    font-size: 15px;
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    font-size: 15px;
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 78%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 13px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    padding: 25px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 60px 0px 65px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 25px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 25px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 27px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 60px 0px 75px 0px;
+  }
+  .forboxsix {
+    margin: 50px 40px 0px 40px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 80px 65px 80px;
+    padding: 35px 0px 30px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 60px 0px 65px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 85px 0px 70px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 0px to 424px
-*/
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 376px to 424px
+  */
 
-@media (min-width: 0px) and (max-width: 424px) {
-  
-  /* CSS */
-  
+@media (min-width: 376px) and (max-width: 424.98px) {
+  .padding {
+    padding: 35px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 75%;
+    padding: 5px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 23px;
+    height: 23px;
+  }
+  .social ul li a {
+    font-size: 12px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 35px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 50px 0px 50px 0px;
+  }
+  .imagecont {
+    padding: 25px 0px 10px 20px;
+  }
+  .imagecont h1 {
+    font-size: 17px;
+  }
+  .imagecont p {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+  }
+  .readseven a {
+    font-size: 15px;
+  }
+  .rightcont h1 {
+    font-size: 20px;
+    padding: 40px 0px 0px 15px;
+  }
+  .rightcont p {
+    padding: 20px 0px 0px 15px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 10px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 55px 0px 55px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 30px;
+  }
+  .upcontfour p {
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 78%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 13px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    padding: 25px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 55px 0px 60px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 15px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 25px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 55px 0px 70px 0px;
+  }
+  .forboxsix {
+    margin: 50px 30px 0px 30px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 70px 65px 70px;
+    padding: 15px 0px 15px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 55px 0px 60px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 85px 0px 70px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 14px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 321px to 375px
+  */
+
+@media (min-width: 321px) and (max-width: 375.98px) {
+  .padding {
+    padding: 20px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 85%;
+    padding: 5px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 23px;
+    height: 23px;
+  }
+  .social ul li a {
+    font-size: 12px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 18px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 32px;
+    padding: 95px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 85px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+  }
+  .creative {
+    padding: 50px 0px 50px 0px;
+  }
+  .imagecont {
+    padding: 25px 0px 5px 15px;
+  }
+  .imagecont h1 {
+    font-size: 16px;
+  }
+  .imagecont p {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+  }
+  .readseven a {
+    font-size: 15px;
+  }
+  .rightcont h1 {
+    font-size: 18px;
+    padding: 40px 0px 0px 15px;
+  }
+  .rightcont p {
+    padding: 20px 0px 0px 15px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 10px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 55px 0px 55px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 27px;
+  }
+  .upcontfour p {
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 84%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 12px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    padding: 25px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 55px 0px 60px 0px;
+  }
+  .numbersixr {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
+  }
+  .numbersixl {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    margin: 0px 15px 0px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 25px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 55px 0px 70px 0px;
+  }
+  .forboxsix {
+    margin: 50px 15px 0px 15px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 50px 65px 50px;
+    padding: 15px 0px 15px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 55px 0px 60px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 60px 0px 50px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 14px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 0px to 320px
+  */
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .padding {
+    padding: 20px 0px 0px 0px;
+  }
+  .navbar-brand a {
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+  }
+  .social {
+    width: 45%;
+  }
+  .social ul {
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+  }
+  .social ul li {
+    width: 23px;
+    height: 23px;
+  }
+  .social ul li a {
+    font-size: 12px;
+  }
+  .navbar-light .navbar-toggler span i {
+    font-size: 16px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 5px 10px 5px 10px;
+  }
+  .navbar-light .navbar-nav .toggle-margin {
+    margin: 30px 0px 0px 0px;
+  }
+  .bannercont h1 {
+    font-size: 27px;
+    padding: 80px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .bannercont p {
+    padding: 16px 10px 0px 10px;
+  }
+  .btn-see {
+    font-size: 12px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin: 85px 0px 0px 0px;
+  }
+  .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+  }
+  .creative {
+    padding: 50px 0px 50px 0px;
+  }
+  .imagecont {
+    padding: 25px 0px 5px 15px;
+  }
+  .imagecont h1 {
+    font-size: 16px;
+  }
+  .imagecont p {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+  }
+  .readseven a {
+    font-size: 15px;
+  }
+  .rightcont h1 {
+    font-size: 18px;
+    padding: 40px 0px 0px 15px;
+  }
+  .rightcont p {
+    padding: 20px 0px 0px 15px;
+  }
+  .btn-seee,
+  .btn-seeee {
+    font-size: 10px;
+  }
+  .forbuttonone {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .bastway {
+    padding: 55px 0px 55px 0px;
+  }
+  .upcontfour h1 {
+    font-size: 25px;
+  }
+  .upcontfour p {
+    padding: 10px 10px 15px 10px;
+  }
+  .upcontfour h3 {
+    padding: 10px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .manulist {
+    width: 100%;
+    padding: 20px 0px 25px 0px;
+    text-align: center;
+  }
+  .manulist ul li a {
+    font-size: 12px;
+    padding: 5px 5.5px 5px 5.5px;
+  }
+  .imgfourfour img {
+    padding: 25px 0px 0px 0px;
+  }
+  .imgfourfour img,
+  .imgfoursix img {
+    width: 100%;
+    margin: auto;
+  }
+  .example {
+    padding: 55px 0px 60px 0px;
+  }
+  .upcontfour h2,
+  .forcolor h1 {
+    font-size: 25px;
+  }
+  .numbersixr p,
+  .numbersixl p {
+    font-size: 14px;
+  }
+  .service {
+    padding: 55px 0px 70px 0px;
+  }
+  .aboutus {
+    padding: 60px 0px 25px 0px;
+  }
+  .backc {
+    margin: 80px 35px 65px 35px;
+    padding: 15px 0px 15px 0px;
+  }
+  .aboutus p {
+    padding: 30px 25px 15px 25px;
+  }
+  .blog {
+    padding: 55px 0px 60px 0px;
+  }
+  .imagecont h4 {
+    font-size: 14px;
+    padding: 0px 0px 20px 0px;
+  }
+  .footer {
+    padding: 55px 0px 45px 0px;
+  }
+  .leftside h1 {
+    font-size: 25px;
+  }
+  .leftside p {
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  .rightside h1 {
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+  }
+  .rightside ul li a {
+    font-size: 14px;
+  }
 }
